@@ -17,6 +17,8 @@ for i in range(len(DirNArray)):
         continue 
     print(DirNArray[i])
     f.write(DirNArray[i] +"\n")
-    DirCount++
+    DirCount+=1
 
-print(DirCount)
+print(str(DirCount)+" test cases in this directory")
+f.write(str(DirCount)+" test cases in this directory")
+f.close()
